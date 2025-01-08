@@ -16,34 +16,30 @@ Built using XGBoost for improved accuracy.
 Installation
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/yourusername/ML_CustomerChurn.git
 Navigate to the project directory:
 
-bash
-Copy code
+
 cd ML_CustomerChurn
 Install the necessary dependencies:
 
-bash
-Copy code
+
+
 pip install -r requirements.txt
+
 Usage
 Training the Model: Train the model using historical customer data by following the steps in training.py.
 
 Making Predictions: You can use the Streamlit application to upload a CSV file containing customer data and predict churn.
 
-bash
-Copy code
+
 streamlit run customer_churn.py
 Model Deployment: The trained model is saved as xgb_model.pkl and can be used for batch predictions or real-time predictions.
 
 Evaluation
 Model Performance: After training, evaluate the model using various metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
 
-python
-Copy code
+
 from sklearn.metrics import classification_report, accuracy_score, confusion_matrix, roc_curve, auc
 import seaborn as sns
 import matplotlib.pyplot as plt
