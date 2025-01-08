@@ -63,11 +63,5 @@ roc_auc = auc(fpr, tpr)
 display = RocCurveDisplay(fpr=fpr, tpr=tpr, roc_auc=roc_auc)
 display.plot()
 plt.show()
-Classification Report
-Precision	Recall	F1-Score	Support
-0	0.96	0.98	0.97	849
-1	0.86	0.78	0.82	163
-Accuracy	-	-	-	1012
-Macro avg	0.91	0.88	0.89	1012
-Weighted avg	0.94	0.94	0.94	1012
-Model Accuracy: 0.94
+![image](https://github.com/user-attachments/assets/d19bf540-85c3-4b38-a4d5-a0d1ca85cd24)
+
