@@ -16,7 +16,7 @@ Built using XGBoost for improved accuracy.
 Installation
 Clone the repository:
 
-git clone https://github.com/yourusername/ML_CustomerChurn.git
+git clone https://github.com/MuhammadjonR/Customer_Churn
 Navigate to the project directory:
 
 
